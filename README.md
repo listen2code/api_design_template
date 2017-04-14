@@ -57,13 +57,13 @@
 ## 应答参数格式
 
 | 字段名称 | 说明 |
-| --- | --- | --- |
+| --- | --- |
 | code | 响应状态码，200：成功；非200：失败 |
 | msg | 请求失败时的message|
 | time | 服务端时间戳，单位：毫秒。用于同步时间 |
 | data | 数据实体 |
 
->object类型数据
+* object类型数据
 
 ```
 // json
@@ -83,7 +83,7 @@ public class Model {
      public String age;
 } 
 ```
->Array类型数据
+* Array类型数据
 
 ```
 // json
@@ -102,7 +102,7 @@ public class Model {
 } 
 ```
 
-> 分页类型数据
+* 分页类型数据
 
 ```
 // json
@@ -122,7 +122,7 @@ public class Model {
     public String total;
 } 
 ```
-> 错误类型数据
+* 错误类型数据
 
 ```
 // json
