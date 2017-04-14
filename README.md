@@ -1,20 +1,20 @@
 基于[从客户端的角度设计后端的接口](https://github.com/listen2code/article/tree/master/从客户端的角度设计后端的接口)设计的客户端接口模板。
 
 
-#公共信息
-##域名url
+# 公共信息
+## 域名url
 ```
 开发环境：http://www.online.com/api
 测试环境：http://www.test.com/api
 ```
 
-##code说明
+## code说明
 | code | 说明 |
 | --- | --- |
 | 200 | 成功 |
 | 401 | 登录过期 |
 
-##请求Path，http://www.xxx.com/api/ [path]
+## 请求Path，http://www.xxx.com/api/ [path]
 
 基础规范
 
@@ -37,7 +37,7 @@
 | 发送短信验证码 | GET | sendSms |
 | 订单支付 | POST | orderPay |
 
-##请求头参数
+## 请求头参数
 
 | 字段名称 | 说明 |
 | --- | --- | --- |
@@ -52,7 +52,7 @@
 | appid | APP唯一标识，有的公司一套server服务多款APP时，需要区分开每个APP来源 |
 | sign | 对请求参数进行计算的md5 |
 
-##应答参数格式
+## 应答参数格式
 
 | 字段名称 | 说明 |
 | --- | --- | --- |
@@ -132,7 +132,7 @@ public class Model {
 }   
 ```
 
-##备注
+## 备注
 ```json
 1.请求，应答参数，一律使用驼峰命名，例：firstInviteTime
 2.数据获取型接口使用GET，提交型接口使用POST
@@ -143,7 +143,7 @@ public class Model {
 ```
 
 
-#登录相关
+# 登录相关
 
 ## 登陆
 
@@ -179,9 +179,9 @@ public class Model {
 }
 ```
 
-#账号相关
+# 账号相关
 
-##忘记密码
+## 忘记密码
 ```
 根据手机号+短信验证码进行密码重置
 ```
@@ -212,7 +212,7 @@ public class Model {
 }
 ```
 
-##修改密码
+## 修改密码
 ```
 根据旧密码，重新设置新密码
 ```
