@@ -1,4 +1,4 @@
-基于[从客户端的角度设计后端的接口](https://github.com/listen2code/article/tree/master/从客户端的角度设计后端的接口)设计的客户端接口模板。
+基于[《从客户端的角度设计后端的接口》](https://github.com/listen2code/article/tree/master/从客户端的角度设计后端的接口)设计的客户端接口模板文档。
 
 
 # 公共信息
@@ -9,14 +9,9 @@
 测试环境：http://www.test.com/api
 ```
 
-## code说明
+## 请求Path
 
-| code | 说明 |
-| --- | --- |
-| 200 | 成功 |
-| 401 | 登录过期 |
-
-## 请求Path，http://www.xxx.com/api/ [path]
+> http://www.xxx.com/api/ [path]
 
 基础规范
 
@@ -54,7 +49,14 @@
 | appid | APP唯一标识，有的公司一套server服务多款APP时，需要区分开每个APP来源 |
 | sign | 对请求参数进行计算的md5 |
 
-## 应答参数格式
+## 响应code
+
+| code | 说明 |
+| --- | --- |
+| 200 | 成功 |
+| 401 | 登录过期 |
+
+## 响应参数格式
 
 | 字段名称 | 说明 |
 | --- | --- |
