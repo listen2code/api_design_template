@@ -42,7 +42,7 @@
 ## 请求头参数
 
 | 字段名称 | 说明 |
-| --- | --- | --- |
+| --- | --- | 
 | version | 客户端版本version，例：1.0.0 |
 | token | 登陆成功后，server返回的登陆令牌token |
 | os | 手机系统版本（Build.VERSION.RELEAS）例：4.4，4.5 |
