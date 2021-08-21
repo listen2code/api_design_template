@@ -1,4 +1,4 @@
-基于[《从客户端的角度设计后端的接口》](https://github.com/listen2code/article/tree/master/从客户端的角度设计后端的接口)设计的客户端接口模板文档。
+基于[《从客户端的角度设计后端的接口》](https://www.jianshu.com/p/35a7b6f5f92e)设计的客户端接口模板文档。
 
 
 # 公共信息
